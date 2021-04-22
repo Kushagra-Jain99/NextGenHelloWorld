@@ -3,7 +3,7 @@ import java.util.*;
 public class NextGenHelloWorld {
 
     /**
-     * Authors: Kushagra_J, GouravKhunger
+     * Authors: Kushagra-Jain99, GouravKhunger
      *
      * This code keeps on printing Hello World after printing
      * numbers from 1 to 'time' which is set by the user.
