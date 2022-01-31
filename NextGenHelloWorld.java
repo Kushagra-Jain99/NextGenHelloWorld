@@ -3,7 +3,7 @@ import java.util.*;
 public class NextGenHelloWorld {
 
     /**
-     * Authors: Kushagra-Jain99, GouravKhunger
+     * Authors: gouravkhunger and Kushagra-Jain99
      *
      * This code keeps on printing Hello World after printing
      * numbers from 1 to 'time' which is set by the user.
@@ -59,8 +59,8 @@ public class NextGenHelloWorld {
                 while (flag) {
                     input = ob.nextLine();
 
-                    // if stop found, break the loop
-                    if (input.toLowerCase().equals("stop")) {
+                    // if "s" found, break the loop
+                    if (input.toLowerCase().equals("s")) {
                         flag = false;
                         break;
                     }
@@ -103,7 +103,7 @@ public class NextGenHelloWorld {
 
         // general info
         System.out.println();
-        System.out.println("Type 'stop' to close the program");
+        System.out.println("Type 's' without the quotes to stop the program.");
         System.out.println();
     }
 }
